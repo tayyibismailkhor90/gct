@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  
+}
+ .container{
+ 
+    height: 100vh;
+    width: 100%;
+    background-image: url('OIP.jfif');
+    background-size: contain;
+ }
+ .dino{
+    
+    transition: 1s;
+    background-image: url('R.jfif');
+    position: absolute;
+    height: 180px;
+    width: 250px;
+    bottom: 30px;
+    background-size: cover;
+    left: 80px;
+    border-radius: 50px;
+ }
+ .obstacle{
+    
+   animation: ani 4s linear infinite ;
+    background-image: url('OIP\ \(1\).jfif');
+    position: absolute;
+    height: 180px;
+    width: 250px;
+    bottom: 30px;
+    background-size: cover;
+    right: 40px;
+    border-radius: 50px;
+ }
+@keyframes ani{
+    0%{
+left: 1000px;
+    }
+ 
+    100%{
+        left: 0.001px;
+            }
+};
+
+
+
+
+.gameover{
+    background-color: aqua;
+    color: brown;
+}
